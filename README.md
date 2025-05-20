@@ -156,7 +156,7 @@ Q10. Write a Java Program for Counting the number of words in a string using use
 ### Develop a Java program to make a  Performance Test on  StringBuffer and StringBuilder for 
 appending the string ‘AIET’ for 10000 times both in the StringBuffer and StringBuilder. Justify 
 your answer which one is better
-[🔗 Output Screenshot](https://github.com/Sharath8i/Advanced-Java/blob/main/Exp3b-StringPerformanceTest/PerformanceTest.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp3b%20StringPerformanceTest/PerformanceTest.png)
 
 ## String
  1. Question: Given a string, write a method to determine if it is a palindrome (reads the same forward and backward), ignoring case and non-alphanumeric characters.
