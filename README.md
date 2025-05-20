@@ -237,13 +237,13 @@ Input: "xy"Output: ["x", "xy", "y"]
 [🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp4%20Swings1/SwingExample.png)
 
 ## 4b. Develop a Swing program in Java to display a message “Srilanka is pressed” or “India is pressed” depending upon the Jbutton either Srilanka or India is pressed by implementing the event handling mechanism with addActionListener( ).
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp4%20Swings1/ButtonExample.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp4%20Swings1/ButtonExample.png)
 
 ## 4c. Develop a Swing program in Java to display a message “Digital Clock is pressed” or “Hour Glass is pressed” depending upon the Jbutton with image either Digital Clock or Hour Glass is pressed by implementing the event handling mechanism with addActionListener( ).
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp4-Swings1/ClockHourglassApp.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp4%20Swings1/ClockHourglassApp.png)
 
 ## 4d. Develop a simple swing program for illustrating mouse operations such as mouse down, up double click , single click with help of a button
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp4-Swings1/MouseOperationsDemo.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp4%20Swings1/MouseOperationsDemo.png)
 
 ## 5a. Develop a Swing program in Java to add the countries USA, India, Vietnam, Canada, Denmark, France, Great Britain, Japan, Africa, Greenland, Singapore into a JList and display them on console whenever the countries are selected on the list.
 
