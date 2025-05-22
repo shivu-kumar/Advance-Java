@@ -1,197 +1,355 @@
-🔧 Advance Java Practical Programs – ReadMe
+# Advanced Java Programming Exercises
 
-Welcome to the Advance Java Programs Repository. This contains well-organized Java programs categorized into List Interface, String Handling, Swing GUI, Servlet, JSP, and JDBC functionalities, aligned with academic curriculum requirements.
-📂 1. List Interface
-🔹 1a. ArrayList vs LinkedList Functional Comparison
+This repository contains comprehensive Java programming exercises covering collections, string operations, GUI development with Swing, servlets, JSP, and database connectivity.
 
-Program demonstrating operations on both ArrayList and LinkedList:
+## 📚 Table of Contents
 
-    Add Elements
+- [Collections Framework](#collections-framework)
+- [String Operations](#string-operations)
+- [GUI Programming with Swing](#gui-programming-with-swing)
+- [Servlet Programming](#servlet-programming)
+- [JSP and Session Management](#jsp-and-session-management)
+- [Database Connectivity (JDBC)](#database-connectivity-jdbc)
+- [How to Run](#how-to-run)
+- [Prerequisites](#prerequisites)
 
-    Insert at Index
+## 🗂️ Collections Framework
 
-    Add Multiple Elements
+### Exercise 1a: ArrayList and LinkedList Operations
+Comprehensive program demonstrating various operations on ArrayList and LinkedList:
+- Adding elements and insertion at specific indices
+- Element access, updating, and removal
+- Searching, sorting, and iteration techniques
+- List size management and sublists
+- Iterator pattern implementation
 
-    Access Elements
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1a.Listinterface/1a.png)**
 
-    Update Elements
+### Exercise 1b: ArrayList Specific Operations
+Collection of programs focusing on ArrayList manipulations:
 
-    Remove Elements
+1. **Color Search Program** - Search for "Red" color in ArrayList
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1b.ArrayList/1b1.png)**
 
-    Search Elements
+2. **Element Removal** - Remove 2nd element and "Blue" from ArrayList
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1b.ArrayList/1b2.png)**
 
-    List Size
+3. **Sorting Colors** - Sort ArrayList using Collections.sort()
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1b.ArrayList/1b3.png)**
 
-    Iterate using for-each
+4. **SubList Extraction** - Extract 1st and 2nd elements using subList()
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1b.ArrayList/1b4.png)**
 
-    Iterate using Iterator
+5. **Index-based Removal** - Delete nth element by index
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1b.ArrayList/1b5.png)**
 
-    Sort
+### Exercise 1c: LinkedList Advanced Operations
+Specialized LinkedList operations and iterator usage:
 
-    Create Sublist
+1. **Positional Iterator** - Iterate from specified position using listIterator()
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c1.png)**
 
-    Clear List
+2. **Reverse Iteration** - Use descendingIterator() for reverse traversal
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c2.png)**
 
-📸 View Output Screenshot
-🔹 1b. ArrayList Programs
+3. **End Insertion** - Add elements at the end using offerLast()
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c3.png)**
 
-    Search for "Red" in Color List
-    📸 Output
+4. **Position Display** - Show elements with their positions
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c4.png)**
 
-    Remove 2nd Element and "Blue"
-    📸 Output
+5. **Element Swapping** - Swap first and third elements using Collections.swap()
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c5.png)**
 
-    Sort Colors using Collections.sort()
-    📸 Output
+## 🔤 String Operations
 
-    Extract 1st and 2nd Elements using subList()
-    📸 Output
+### Exercise 2a: Comprehensive String Operations
+Complete demonstration of Java string handling capabilities:
+- String creation and basic operations
+- Length calculation and character access
+- String comparison methods
+- Searching and substring operations
+- String modification and whitespace handling
+- Concatenation and splitting techniques
+- StringBuilder usage
+- String formatting
+- Email validation using contains(), startsWith(), and endsWith()
 
-    Remove nth Element by Index
-    📸 Output
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/2a.Stringoperationsdemo/2a.png)**
 
-🔹 1c. LinkedList Programs
+### Exercise 2b: Performance Comparison
+Performance benchmark between StringBuffer and StringBuilder:
+- Append operation test with 10,000 iterations
+- Performance analysis and comparison
+- Justification of better choice
 
-    Iterate from 2nd Element using listIterator(1)
-    📸 Output
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/2b.StringTestingPerformance/2b.png)**
 
-    Reverse Iteration using descendingIterator()
-    📸 Output
+### Exercise 3a: Extended String Operations
+Advanced string manipulation techniques (duplicate of 2a with extended functionality).
 
-    Insert Element at End using offerLast()
-    📸 Output
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3a.StringOperations/3a.png)**
 
-    Display Element with Position using get(index)
-    📸 Output
+### Exercise 3b: String Utility Functions
+Custom string utility functions:
 
-    Swap First and Third Elements using Collections.swap()
-    📸 Output
+1. **Null/Empty Check** - isNullOrEmpty() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3b.StringExercise/3b1.png)**
 
-📂 2. String Operations
-🔹 2a. Comprehensive String Operations
+2. **Substring Counter** - countOccurrences() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3b.StringExercise/3b2.png)**
 
-Includes:
+3. **String Reversal** - reverseString() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3b.StringExercise/3b3.png)**
 
-    Creation, Length, Comparison
+4. **Palindrome Checker** - isPalindrome() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3b.StringExercise/3b4.png)**
 
-    Substring, Modification
+5. **Whitespace Removal** - removeWhitespace() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3b.StringExercise/3b5.png)**
 
-    Whitespace Handling
+### Exercise 3c: Advanced String Utilities
+Additional string manipulation functions:
 
-    Concatenation, Splitting
+6. **Word Capitalization** - capitalizeWords() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3c.Stringexercise/3c6.png)**
 
-    StringBuilder, String.format()
+7. **String Truncation** - truncate() function with ellipsis
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3c.Stringexercise/3c7.png)**
 
-    Email Validation
+8. **Numeric Validation** - isNumeric() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3c.Stringexercise/3c8.png)**
 
-📸 Output Screenshot
-🔹 2b. String Performance Test
+9. **Random String Generator** - generateRandomString() function
+   **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3c.Stringexercise/3c9.png)**
 
-Performance comparison of StringBuffer vs StringBuilder by appending “AIET” 10,000 times.
+10. **Word Counter** - countWords() function
+    **[Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/3c.Stringexercise/3c10.png)**
 
-📸 Output Screenshot
-📂 3. String Handling Exercises
-🔹 3a. String Operations Repeat
+## 🖥️ GUI Programming with Swing
 
-📸 Output
-🔹 3b. Utility Functions
+### Exercise 4a: Basic Swing Application
+Simple Swing program with JFrame and JLabel:
+- Display "Hello! VI C, Welcome to Swing Programming"
+- Blue color, plain font, size 32
 
-    Check Null/Whitespace – isNullOrEmpty()
-    📸 Screenshot
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/SwingExe1.png)**
 
-    Count Substring Occurrences – countOccurrences()
-    📸 Screenshot
+### Exercise 4b: Button Event Handling
+Interactive button program with ActionListener:
+- Country selection buttons (Sri Lanka/India)
+- Event-driven message display
 
-    Reverse String – reverseString()
-    📸 Screenshot
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/CountryButtonExample.png)**
 
-    Check Palindrome – isPalindrome()
-    📸 Screenshot
+### Exercise 4c: Image Button Events
+Advanced button program with images:
+- Digital Clock and Hour Glass image buttons
+- ActionListener implementation
 
-    Remove Whitespace – removeWhitespace()
-    📸 Screenshot
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/clock.png)**
 
-🔹 3c. More Utility Functions
+## 📋 Advanced Swing Components
 
-    Capitalize Words – capitalizeWords()
-    📸 Screenshot
+### Exercise 5a: JList with Console Output
+Country selection using JList:
+- Countries: USA, India, Vietnam, Canada, Denmark, France, Great Britain, Japan, Africa, Greenland, Singapore
+- Console output on selection
 
-    Truncate with Ellipsis – truncate()
-    📸 Screenshot
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CountryListConsole.png)**
 
-    Check if Numeric – isNumeric()
-    📸 Screenshot
+### Exercise 5b: Color Tabbed Pane
+Tabbed interface with color display:
+- RED, BLUE, and GREEN tabs
+- Dynamic color display on tab selection
 
-    Generate Random String – generateRandomString()
-    📸 Screenshot
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/ColorTabbedPane.png)**
 
-    Count Words – countWords()
-    📸 Screenshot
+### Exercise 5c: Country-Capital Mapping
+Enhanced JList with capital display:
+- Country selection shows corresponding capital
+- Console output integration
 
-📂 4. Java Swing Programs
-🔹 4a. Hello Program
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CountryCapitalList.png)**
 
-📸 Output
-🔹 4b. Country Button Click
+### Exercise 5d: Extended Color Tabs
+Additional tabbed pane implementation:
+- Cyan, Magenta, and Yellow tabs
+- Color switching functionality
 
-📸 Output
-🔹 4c. Image Button Click Event
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CTP1.png)**
 
-📸 Output
-📂 5. Advanced Swing Components
-🔹 5a. Country JList Console Output
+## 🌐 Servlet Programming
 
-📸 Output
-🔹 5b. Color Tabbed Pane (RED, BLUE, GREEN)
+### Exercise 6a: Factorial Calculator
+Web-based factorial calculator:
+- HTML form input
+- Servlet processing
+- Step-by-step implementation guide
 
-📸 Output
-🔹 5c. JList with Capitals on Selection
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/Fact.png)**
 
-📸 Output
-🔹 5d. Color Tabbed Pane (CYAN, MAGENTA, YELLOW)
+### Exercise 6b: Cookie Management
+Advanced cookie handling:
+- User name storage in cookies
+- Visit counter implementation
+- Cookie expiry demonstration
+- Personalized welcome messages
 
-📸 Output
-📂 6. Servlet Programs
-🔹 6a. Factorial Servlet
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/cookiecount.jpg)**
 
-📸 Output Screenshot
-🔹 6b. Cookie Visit Counter
+### Exercise 6c: Prime Number Checker
+Web-based prime number validator:
+- HTML input form
+- Servlet-based prime checking algorithm
+- Detailed implementation steps
 
-📸 Output Screenshot
-🔹 6c. Prime Number Check Servlet
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/Prime.png)**
 
-📸 Output Screenshot
-📂 7. JSP Programs
-🔹 7a. Session Management (1 Min Expiry)
+## 📄 JSP and Session Management
 
-📸 Screenshot 1
-📸 Screenshot 2
-🔹 7b. Cookie Management
+### Exercise 7a: Session Management
+JSP session handling with timeout:
+- 1-minute session expiry
+- User name input and greeting
+- Session timeout demonstration
 
-📸 Screenshot
-📂 8. JDBC with JSP
-🔹 8a. Insert Coffee Product
+**[Screenshot 1](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp7-JavaServlet/session1.jpg)** | **[Screenshot 2](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp7-JavaServlet/session2.jpg)**
 
-📸 Output
-🔹 8b. Update Coffee Product
+### Exercise 7b: Cookie Management System
+Comprehensive cookie management:
+- Cookie creation with custom fields (Name, Domain, Max Age)
+- Active cookie list display
+- Navigation between cookie operations
 
-📸 Output
-🔹 8c. Insert Employee Data
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp7-JavaServlet/cookie.jpg)**
 
-📸 Output
-🔹 8d. Update Employee Data
+## 🗃️ Database Connectivity (JDBC)
 
-📸 Output
-📂 9. JDBC Advanced
-🔹 9a. Delete Coffee by ID
+### Exercise 8a: Coffee Database - Insert Operations
+Coffee inventory management system:
+- Table structure: `coffee(id, coffee_name, price)`
+- Record insertion via HTML/JSP
+- Display all existing records
 
-📸 Output
-🔹 9b. Query Coffee Name Starting with 'D'
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8a.png)**
 
-📸 Output
-🔹 9c. Insert Employee Data (MySQL)
+### Exercise 8b: Coffee Database - Update Operations
+Coffee record modification:
+- Update existing coffee products by ID
+- HTML form integration
+- JSP result display
 
-📸 Output
-🔹 9d. Delete Employee by Name Starting with 'ID'
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8b.png)**
 
-📸 Output
+### Exercise 8c: Employee Database - Insert and Report
+Employee management system:
+- Table structure: `Emp(empno, empname, basicsalary)`
+- Data insertion via keyboard input
+- Comprehensive employee report generation
+
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8c.png)**
+
+### Exercise 8d: Employee Database - Update Operations
+Employee record updates:
+- Modify employee information by ID
+- HTML/JSP interface integration
+
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8d.png)**
+
+## 🔍 Advanced Database Operations
+
+### Exercise 9a: Coffee Database - Delete Operations
+Record deletion functionality:
+- Delete coffee products by ID
+- Display remaining records after deletion
+
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9a.png)**
+
+### Exercise 9b: Coffee Database - Query Operations
+Advanced querying capabilities:
+- Search coffee names starting with 'D'
+- Pattern-based database queries
+
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9b.png)**
+
+### Exercise 9c: MySQL Employee Management
+MySQL-specific employee operations:
+- Employee data insertion
+- Comprehensive reporting system
+- MySQL database integration
+
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9c.jpg)**
+
+### Exercise 9d: MySQL Conditional Deletion
+Advanced deletion operations:
+- Delete employees with names starting with 'ID'
+- Pattern-based deletion queries
+- Result reporting
+
+**[View Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9d.jpg)**
+
+## 🛠️ Prerequisites
+
+- **Java Development Kit (JDK)** 8 or higher
+- **Apache Tomcat** server for servlet/JSP programs
+- **MySQL Database** for JDBC exercises
+- **IDE** (Eclipse, IntelliJ IDEA, or NetBeans recommended)
+- **Web browser** for testing web applications
+
+## 🚀 How to Run
+
+### For Core Java Programs (Exercises 1-3):
+```bash
+javac ProgramName.java
+java ProgramName
+```
+
+### For Swing Applications (Exercises 4-5):
+```bash
+javac SwingProgram.java
+java SwingProgram
+```
+
+### For Servlet Programs (Exercise 6):
+1. Deploy WAR file to Tomcat server
+2. Start Tomcat server
+3. Access via web browser: `http://localhost:8080/your-app-name`
+
+### For JSP Programs (Exercises 7-9):
+1. Place JSP files in Tomcat webapps directory
+2. Configure database connection (for JDBC exercises)
+3. Start Tomcat server
+4. Access via web browser
+
+## 📋 Database Setup (For JDBC Exercises)
+
+### Coffee Table:
+```sql
+CREATE TABLE coffee (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    coffee_name VARCHAR(100),
+    price DECIMAL(10,2)
+);
+```
+
+### Employee Table:
+```sql
+CREATE TABLE Emp (
+    empno INT PRIMARY KEY,
+    empname VARCHAR(100),
+    basicsalary DECIMAL(10,2)
+);
+```
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests for improvements or additional exercises.
+
+## 📝 License
+
+This project is for educational purposes. Feel free to use and modify as needed.
+
+---
+
+**Note**: All screenshots and detailed outputs are available in the respective directories of this repository.
