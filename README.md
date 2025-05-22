@@ -26,34 +26,34 @@ Adding elements, 2. Adding element at specific index, 3. Adding multiple element
 ## 1c. Linked List Programs
 1.Write a Java program to iterate through all elements in a linked list starting at the specified position ( 2nd) using iterator ( hint : Iterator iteratorobj = listobj.listIterator(1)) 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp1-ListInterface/p6output.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c1.png)
 
 2.Write a Java program to iterate a linked list in reverse order (using objlist.descendingIterator()) 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp1-ListInterface/p7output.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c2.png)
 
 3.Write a Java program to insert the specified element at the end of a linked list.( using l_listobj.offerLast("Pink")) 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp1-ListInterface/p8output.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c3.png)
 
 4.Write a Java program to display elements and their positions in a linked list ( using l_listobj.get(p) ) 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp1-ListInterface/p9output.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c4.png)
 
 5.Write a Java program that swaps two elements ( first and third elements ) in a linked list ( using Collections.swap(l_list, 0, 2)) 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp1-ListInterface/p10output.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/1c.LinkedList/1c5.png)
 
 ## 2. Develop a Java program for adding elements [Apple, Banana, Orange] into HashSet, TreeSet and LinkedHashSet to perform the following operations directed as follows
 HashSet Demonstration :HashSet after adding elements: [Apple, Orange, Banana], Size of HashSet: 3, Is HashSet empty? false, Contains 'Apple'? true, Contains 'Grape'? False, After removing 'Banana': [Apple, Orange] TreeSet Demonstration : TreeSet (automatically sorted): [Elephant, Lion, Tiger, Zebra] LinkedHashSet Demonstration: LinkedHashSet (maintains insertion order): [Red, Green, Blue] Set Operations Demonstration:Union of sets: [1, 2, 3, 4, 5, 6, 7, 8], Intersection of sets: [4, 5] Difference of sets (set1 - set2): [1, 2, 3] Iteration Demonstration : Using for-each loop,Using Iterator 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp2-SetInterface/map.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/2a.Stringoperationsdemo/2a.png)
 
 
 ## HashMap
 1.Write a Java program to traverse / iterate all the keys with the specified value in a HashMap (1,”Apple”), (2,”Strawberry”), (3,”Pear”), (4,”Cucumber”), (5,”Grapes”) [ hint : 6. Iterating Over Map in the worked out example] 
 
-[🔗 Output Screenshot](https://github.com/shivu-kumar/Advanced-Java/blob/main/Exp2-SetInterface/p1.png)
+[🔗 Output Screenshot](https://github.com/shivu-kumar/Advance-Java/blob/main/2a.Stringoperationsdemo/2a.png)
 
 2.Remove the following all elements from the HashMap then verify that its size is zero and include once again following elements and check its size (1,”Banana”), (2,”Orange”), (3,”Guava”), (4,”Pomegranate ”), (5,”Amla”) [ Hint : clear() , size() and put()] 
 
