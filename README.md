@@ -23,7 +23,7 @@ Comprehensive program demonstrating various operations on ArrayList and LinkedLi
 - List size management and sublists
 - Iterator pattern implementation
 
-**[View Output](https://github.com/shivu-kumar/Advance-Java/blob/main/1a.Listinterface/1a.png)**
+**[Output](https://github.com/shivu-kumar/Advance-Java/blob/main/1a.Listinterface/1a.png)**
 
 ### Exercise 1b: ArrayList Specific Operations
 Collection of programs focusing on ArrayList manipulations:
@@ -75,7 +75,7 @@ Complete demonstration of Java string handling capabilities:
 - String formatting
 - Email validation using contains(), startsWith(), and endsWith()
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/2a.Stringoperationsdemo/2a.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/2a.Stringoperationsdemo/2a.png)**
 
 ### Exercise 2b: Performance Comparison
 Performance benchmark between StringBuffer and StringBuilder:
@@ -83,12 +83,12 @@ Performance benchmark between StringBuffer and StringBuilder:
 - Performance analysis and comparison
 - Justification of better choice
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/2b.StringTestingPerformance/2b.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/2b.StringTestingPerformance/2b.png)**
 
 ### Exercise 3a: Extended String Operations
 Advanced string manipulation techniques (duplicate of 2a with extended functionality).
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/3a.StringOperations/3a.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/3a.StringOperations/3a.png)**
 
 ### Exercise 3b: String Utility Functions
 Custom string utility functions:
@@ -133,21 +133,21 @@ Simple Swing program with JFrame and JLabel:
 - Display "Hello! VI C, Welcome to Swing Programming"
 - Blue color, plain font, size 32
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/SwingExe1.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/SwingExe1.png)**
 
 ### Exercise 4b: Button Event Handling
 Interactive button program with ActionListener:
 - Country selection buttons (Sri Lanka/India)
 - Event-driven message display
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/CountryButtonExample.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/CountryButtonExample.png)**
 
 ### Exercise 4c: Image Button Events
 Advanced button program with images:
 - Digital Clock and Hour Glass image buttons
 - ActionListener implementation
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/clock.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/4.Swings/clock.png)**
 
 ## 📋 Advanced Swing Components
 
@@ -156,28 +156,28 @@ Country selection using JList:
 - Countries: USA, India, Vietnam, Canada, Denmark, France, Great Britain, Japan, Africa, Greenland, Singapore
 - Console output on selection
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CountryListConsole.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CountryListConsole.png)**
 
 ### Exercise 5b: Color Tabbed Pane
 Tabbed interface with color display:
 - RED, BLUE, and GREEN tabs
 - Dynamic color display on tab selection
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/ColorTabbedPane.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/ColorTabbedPane.png)**
 
 ### Exercise 5c: Country-Capital Mapping
 Enhanced JList with capital display:
 - Country selection shows corresponding capital
 - Console output integration
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CountryCapitalList.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CountryCapitalList.png)**
 
 ### Exercise 5d: Extended Color Tabs
 Additional tabbed pane implementation:
 - Cyan, Magenta, and Yellow tabs
 - Color switching functionality
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CTP1.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/5.Swings/CTP1.png)**
 
 ## 🌐 Servlet Programming
 
@@ -187,7 +187,7 @@ Web-based factorial calculator:
 - Servlet processing
 - Step-by-step implementation guide
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/Fact.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/Fact.png)**
 
 ### Exercise 6b: Cookie Management
 Advanced cookie handling:
@@ -196,7 +196,7 @@ Advanced cookie handling:
 - Cookie expiry demonstration
 - Personalized welcome messages
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/cookiecount.jpg)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/cookiecount.jpg)**
 
 ### Exercise 6c: Prime Number Checker
 Web-based prime number validator:
@@ -204,7 +204,7 @@ Web-based prime number validator:
 - Servlet-based prime checking algorithm
 - Detailed implementation steps
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/Prime.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/6.JavaServletExample/Prime.png)**
 
 ## 📄 JSP and Session Management
 
@@ -222,7 +222,7 @@ Comprehensive cookie management:
 - Active cookie list display
 - Navigation between cookie operations
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp7-JavaServlet/cookie.jpg)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/Exp7-JavaServlet/cookie.jpg)**
 
 ## 🗃️ Database Connectivity (JDBC)
 
@@ -232,7 +232,7 @@ Coffee inventory management system:
 - Record insertion via HTML/JSP
 - Display all existing records
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8a.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8a.png)**
 
 ### Exercise 8b: Coffee Database - Update Operations
 Coffee record modification:
@@ -240,7 +240,7 @@ Coffee record modification:
 - HTML form integration
 - JSP result display
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8b.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8b.png)**
 
 ### Exercise 8c: Employee Database - Insert and Report
 Employee management system:
@@ -248,14 +248,14 @@ Employee management system:
 - Data insertion via keyboard input
 - Comprehensive employee report generation
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8c.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8c.png)**
 
 ### Exercise 8d: Employee Database - Update Operations
 Employee record updates:
 - Modify employee information by ID
 - HTML/JSP interface integration
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8d.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8d.png)**
 
 ## 🔍 Advanced Database Operations
 
@@ -264,14 +264,14 @@ Record deletion functionality:
 - Delete coffee products by ID
 - Display remaining records after deletion
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9a.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9a.png)**
 
 ### Exercise 9b: Coffee Database - Query Operations
 Advanced querying capabilities:
 - Search coffee names starting with 'D'
 - Pattern-based database queries
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9b.png)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9b.png)**
 
 ### Exercise 9c: MySQL Employee Management
 MySQL-specific employee operations:
@@ -279,7 +279,7 @@ MySQL-specific employee operations:
 - Comprehensive reporting system
 - MySQL database integration
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9c.jpg)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9c.jpg)**
 
 ### Exercise 9d: MySQL Conditional Deletion
 Advanced deletion operations:
@@ -287,7 +287,7 @@ Advanced deletion operations:
 - Pattern-based deletion queries
 - Result reporting
 
-**[View Output Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9d.jpg)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP9-JDBCExample/9d.jpg)**
 
 ## 🛠️ Prerequisites
 
