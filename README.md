@@ -248,14 +248,14 @@ Employee management system:
 - Data insertion via keyboard input
 - Comprehensive employee report generation
 
-**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8c.jpg)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8d.jpg)**
 
 ### Exercise 8d: Employee Database - Update Operations
 Employee record updates:
 - Modify employee information by ID
 - HTML/JSP interface integration
 
-**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8d.jpg)**
+**[ Output](https://github.com/shivu-kumar/Advance-Java/blob/main/EXP8-JDBCExample/8c.jpg)**
 
 ## 🔍 Advanced Database Operations
 
